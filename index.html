@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        text-align: center;
+        margin-top: 200px;
+        background-color: cyan;
+    }
+    .resetbtn{
+        margin-top: 20px;
+    }
+    .container{
+        margin-left:400px ;
+        border: 2px solid black;
+        width:500px;
+        padding:20px;
+        background-color: pink;    
+    }
+    button{
+        border:0.5px rgb(0, 0, 0) solid;
+        background-color: pink;
+    }
+    p{
+        font-size:50px
+    }
+</style>
+<body>
+    <div class="container">
+    <h1>COUNTER</h1>
+    <p>0</p>
+    <button class="decrease" onclick="prev()">Decrease</button>
+    <button class="increase" onclick="next()">Increase</button>
+    <div class="resetbtn">
+        <button class="reset" onclick="reset()">Reset</button>
+    </div>
+    <script src="app.js"></script>
+    </div>
+</body>
+</html>
